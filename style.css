@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.orange-color{
+    color:orange;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 70%;
+}
+#top-img{
+    width: 50%;
+    padding-left: 20%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.destination-big{
+    background-image: url(img/2nd\ banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.recipies-area{
+
+}
+.My-Recipies{
+    text-align:center;
+    padding: auto;
+}
+.container{
+   display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin 5px;
+}
+.container img{
+    width: 50%;
+    padding-left: 20%;
+
+
+}
+.box{ 
+    flex: 1;
+    border: 1px solid #666 ;
+    margin: 2px;
+    padding: 10px;
+}
+
+footer{    
+    text-align:center;
+    padding: auto;
+    background-color: #666;
+    padding: 100px;
+
+}
